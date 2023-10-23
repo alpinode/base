@@ -1,0 +1,17 @@
+
+services:
+
+  alpinode-18:
+    image: ${IMAGE_NAME}:18
+    build:
+      context: versions/18
+      additional_contexts:
+        shared: shared
+
+  alpinode-20:
+    image: ${IMAGE_NAME}:20
+    build:
+      context: versions/20
+      additional_contexts:
+        shared: shared
+
