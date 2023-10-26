@@ -8,7 +8,7 @@ unset \
   opts \
 ;
 
-for e in "$@"; do
+for e in $@; do
   if [[ -d versions/$e ]]; then
     opted_versions="$opted_versions $e"
   else
@@ -19,7 +19,7 @@ done
 if [[ -n $opted_versions ]]; then
   versions=$opted_versions
 else
-  versions=`/bin/ls versions`
+  versions=$(/bin/ls versions)
 fi
 
 for f in $versions; do
