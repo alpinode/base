@@ -5,7 +5,6 @@ apk add --no-cache \
   bash=~5 \
   bash-completion=~2 \
   neovim \
-  tmux \
   htop \
 ;
 
