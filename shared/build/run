@@ -12,5 +12,4 @@ rm -fr \
   /tmp/* \
   /root/.npm \
   /root/.cache \
-;
-
+  ;

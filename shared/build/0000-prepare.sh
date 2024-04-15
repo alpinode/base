@@ -9,4 +9,3 @@ https://dl-cdn.alpinelinux.org/alpine/v$release/community/
 EOF
 
 apk -U upgrade
-
