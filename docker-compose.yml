@@ -15,10 +15,3 @@ services:
       additional_contexts:
         shared: shared
 
-  alpinode-21:
-    image: ${IMAGE_NAME}:21
-    build:
-      context: versions/21
-      additional_contexts:
-        shared: shared
-
