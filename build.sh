@@ -6,7 +6,7 @@ unset \
   versions \
   opted_versions \
   opts \
-;
+  ;
 
 for e in $@; do
   if [[ -d versions/$e ]]; then
@@ -25,4 +25,3 @@ fi
 for f in $versions; do
   docker compose build alpinode-$f $opts
 done
-

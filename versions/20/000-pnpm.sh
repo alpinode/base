@@ -1,4 +1,3 @@
-
 set -e
 
 corepack enable
