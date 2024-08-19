@@ -15,3 +15,9 @@ services:
       additional_contexts:
         shared: shared
 
+  alpinode-22:
+    image: ${IMAGE_NAME}:22
+    build:
+      context: versions/22
+      additional_contexts:
+        shared: shared
