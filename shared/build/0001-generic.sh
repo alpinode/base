@@ -7,5 +7,5 @@ apk add --no-cache \
 
 cat <<'EOF' >>/etc/profile.d/generic.sh
 export HISTCONTROL="ignoreboth:erasedups"
-export EDITOR=nvim
+export EDITOR="nvim"
 EOF
